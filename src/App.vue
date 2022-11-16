@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg bg-info">
+    <nav data-cy=”header-background” class="navbar navbar-expand-lg bg-info">
       <div class="container px-6 py-4">
-        <a class="navbar-brand text-light fw-bold" href="#">TO DO LIST APP</a>
+        <a data-cy=”header-title” class="navbar-brand text-light fw-bold" href="#">TO DO LIST APP</a>
       </div>
     </nav>
     <router-view/>
